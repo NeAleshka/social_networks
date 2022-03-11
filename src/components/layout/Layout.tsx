@@ -8,8 +8,8 @@ import {Countainer} from "../Countainer";
 
 export const Layout: FC = () => {
     return (
-        <>
-            <div style={{backgroundColor: 'white',height:'45px'}}>
+        <div style={{display:"flex",flexDirection:'column',justifyContent:'center'}}>
+            <div style={{backgroundColor: 'white',height:'45px',marginBottom:'15px'}}>
                 <Header/>
             </div>
             <Countainer>
@@ -17,12 +17,13 @@ export const Layout: FC = () => {
                     <Grid item md={2}>
                         <SideBar/>
                     </Grid>
-                    <Grid item md={10}>
+                    <Grid item md={7}>
                         <Outlet/>
                     </Grid>
                 </Grid>
             </Countainer>
-        </>
+
+        </div>
     )
 }
 
