@@ -12,13 +12,13 @@ const Wrapper = styled.div`
   height: 30px;
   padding-top: 8px;
 `
-const HeaderLogo = styled.img.attrs({
+ const HeaderLogo = styled.img.attrs({
     src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/VK_Full_Logo_%282021-present%29.svg/2560px-VK_Full_Logo_%282021-present%29.svg.png'
 })`
   height: 25px;
 `
 
-const HeaderAvatar=styled.img.attrs({src:'https://sun2.beltelecom-by-minsk.userapi.com/s/v1/if2/utMxxkkNeLmZOlUIjDvc99o1cLzDX1W6BT-Mtf5c8ebu-9ffm_zEdSQ1IO8LH896SH3zAZTw0uUkBfn3HaPc1ZUT.jpg?size=50x50&quality=96&crop=1021,0,1539,1539&ava=1'})`
+export const HeaderAvatar=styled.img.attrs({src:'https://sun2.beltelecom-by-minsk.userapi.com/s/v1/if2/utMxxkkNeLmZOlUIjDvc99o1cLzDX1W6BT-Mtf5c8ebu-9ffm_zEdSQ1IO8LH896SH3zAZTw0uUkBfn3HaPc1ZUT.jpg?size=50x50&quality=96&crop=1021,0,1539,1539&ava=1'})`
   margin-left: 50px;
   border-radius: 20px;
   height: 35px;

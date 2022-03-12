@@ -17,7 +17,7 @@ export const Layout: FC = () => {
                     <Grid item md={2}>
                         <SideBar/>
                     </Grid>
-                    <Grid item md={7}>
+                    <Grid item md={8}>
                         <Outlet/>
                     </Grid>
                 </Grid>

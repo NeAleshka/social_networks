@@ -20,7 +20,7 @@ const SideBarItem = styled.div`
   }
 `
 const SideBarItemLogo = styled.div`
-  font-family: 'Roboto', sans-serif;
+
 `
 
 const SideBarItemTitle = styled.span`
